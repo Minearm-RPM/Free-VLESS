@@ -9,7 +9,7 @@ let userID = '154a51a6-06ed-4e70-9435-61c7d1cab20f';
 let proxyIP = 'cdn.xn--b6gac.eu.org'; // workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
 
 if (!isValidUUID(userID)) {
-	throw new Error('uuid is not valid');
+	throw new Error('uuid is not valid.');
 }
 
 export default {
