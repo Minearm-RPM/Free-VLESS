@@ -602,7 +602,6 @@ function getVLESSConfig(userID, hostName) {
 	const vlessMain = `vless://${userID}\u0040${hostName}:443?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`
 	return `
 ################################################################
-我是汤了解，我要玩mc!
 v2ray
 ---------------------------------------------------------------
 ${vlessMain}
